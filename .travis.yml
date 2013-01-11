@@ -8,6 +8,7 @@ env:
   - DB=postgres
 gemfile:
   - Gemfile
+  - ci/gemfiles/rspec2_11_rails3_2.gemfile
   - ci/gemfiles/rspec2_11_rails3_1.gemfile
   - ci/gemfiles/rspec2_11_rails3_0.gemfile
 before_script:
