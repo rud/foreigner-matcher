@@ -7,8 +7,8 @@ group :test do
   gem "rake"
   gem "rspec",        "~> 2.12.0"
   gem "mocha",        "~> 0.13.0"
-  gem "activerecord", "~> 3.2.0"
-  gem "railties",     "~> 3.2.0"
+  gem "activerecord", "~> 8.0.2"
+  gem "railties",     "~> 8.0.2"
 
   platforms :ruby do
     gem "mysql2",     "~> 0.3.0"
